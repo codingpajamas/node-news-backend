@@ -1,5 +1,4 @@
-module.exports = function(mongoose) {  
-	var dbURI = 'mongodb://localhost/moscordnewsapp';
+module.exports = function(mongoose) {   
 	var dbAtlasURI = 'mongodb+srv://moscordUser:moscordPassword@moscordnewsapp-tj9d9.mongodb.net/test?retryWrites=true&w=majority';
 	mongoose.connect(dbAtlasURI, {useNewUrlParser: true});
 
